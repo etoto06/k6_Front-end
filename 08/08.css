@@ -1,0 +1,54 @@
+img {
+  display: inline-flex;
+  margin: 10px; 
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+button { 
+  height: 30px;
+  width: 50px;
+  background-color:rgb(109, 3, 151);
+  color: white;
+  border: 0px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+
+button:hover {
+  background-color: olive;
+  cursor: pointer;
+}
+
+input[type=number] {
+  display: inline-flex;
+  width: 60%; 
+  height: 40px; 
+}
+
+div>div{
+  width: 100%;
+}
+
+#msg{
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
