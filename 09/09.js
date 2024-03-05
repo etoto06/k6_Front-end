@@ -86,3 +86,4 @@ for (let [k, v] of Object.entries(obj)) {
     console.log("오브젝트키:", k);
     console.log("오브젝트값:", v);
 }
+
