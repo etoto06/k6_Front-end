@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+     top: 0;
+     left: 0;
+    right: 0;
+
+}
+
+.header_Menu{
+    color: white;
+    float: left;
+    text-align: center;
+    margin: 40px;
+    display: block;
+    font-size: 20px;
+ 
+    
+}
+
+
+.header_header{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 20%;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/mainbackground.jpg) center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+.main_m{
+    margin: 0px 10px;
+   /* border-style: dashed;
+   border-color: red;*/
+    font-size: 30px;
+    padding: 100px;
+
+}
+
+.download{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+}
+
+
+
+.title{
+    margin-bottom: 3rem;
+}
+
+.title h4{
+    font-size: 1.35rem;
+    color: #ed4848;
+    position: relative;
+}
+
+.title h2{
+    font-size: 3.5rem;
+}
+
+.title p{
+    font-size: 1.15rem;
+}
+
+section .about-self .right h3{
+    font-size: 2.25rem;
+}
+
+.about-self .right p{
+    font-size: 1.15rem;
+    margin: 1rem;
+}
+
+html{
+    font-size: 14px;
+}
+
+리스트: < 0,5,10, 15, 20> 순차적인 정수가 순서대로 저장된 것
+
+- 배열로 리스트 표현 + insert 구현
+
+- 연결 리스트로 리스트 표현 + insert 구현
